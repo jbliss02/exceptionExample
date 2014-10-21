@@ -24,6 +24,10 @@ public class Login {
 		{
 			System.out.println(ex.getMessage());
 		}
+		catch(Exception ex)
+		{
+			System.out.println("A general error occured");
+		}
 		
 	}
 	
